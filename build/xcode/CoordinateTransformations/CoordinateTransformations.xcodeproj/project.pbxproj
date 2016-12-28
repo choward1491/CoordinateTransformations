@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD03D1561E14241C00916C6F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1551E14241C00916C6F /* main.cpp */; };
+		AD03D1631E14249E00916C6F /* LatLongAlt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D15E1E14249E00916C6F /* LatLongAlt.cpp */; };
+		AD03D1641E14249E00916C6F /* CoordTransforms.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1611E14249E00916C6F /* CoordTransforms.cpp */; };
+		AD03D1731E14262F00916C6F /* EulerAngles.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1671E14262F00916C6F /* EulerAngles.cpp */; };
+		AD03D1781E1427B300916C6F /* Earth.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD03D1761E1427B300916C6F /* Earth.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AD03D1501E14241C00916C6F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD03D1521E14241C00916C6F /* CoordinateTransformations */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CoordinateTransformations; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD03D1551E14241C00916C6F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AD03D15E1E14249E00916C6F /* LatLongAlt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LatLongAlt.cpp; sourceTree = "<group>"; };
+		AD03D15F1E14249E00916C6F /* LatLongAlt.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LatLongAlt.hpp; sourceTree = "<group>"; };
+		AD03D1611E14249E00916C6F /* CoordTransforms.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CoordTransforms.cpp; sourceTree = "<group>"; };
+		AD03D1621E14249E00916C6F /* CoordTransforms.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CoordTransforms.hpp; sourceTree = "<group>"; };
+		AD03D1671E14262F00916C6F /* EulerAngles.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = EulerAngles.cpp; path = ../../../../../Geom3/src/EulerAngles.cpp; sourceTree = "<group>"; };
+		AD03D1681E14262F00916C6F /* EulerAngles.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = EulerAngles.hpp; path = ../../../../../Geom3/src/EulerAngles.hpp; sourceTree = "<group>"; };
+		AD03D1691E14262F00916C6F /* Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Geometry.h; path = ../../../../../Geom3/src/Geometry.h; sourceTree = "<group>"; };
+		AD03D16A1E14262F00916C6F /* mat_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mat_impl.hpp; path = ../../../../../Geom3/src/mat_impl.hpp; sourceTree = "<group>"; };
+		AD03D16B1E14262F00916C6F /* mat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mat.hpp; path = ../../../../../Geom3/src/mat.hpp; sourceTree = "<group>"; };
+		AD03D16C1E14262F00916C6F /* math_bundle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math_bundle.hpp; path = ../../../../../Geom3/src/math_bundle.hpp; sourceTree = "<group>"; };
+		AD03D16D1E14262F00916C6F /* math_operators.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math_operators.hpp; path = ../../../../../Geom3/src/math_operators.hpp; sourceTree = "<group>"; };
+		AD03D16E1E14262F00916C6F /* Quaternion_Impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Quaternion_Impl.hpp; path = ../../../../../Geom3/src/Quaternion_Impl.hpp; sourceTree = "<group>"; };
+		AD03D16F1E14262F00916C6F /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Quaternion.hpp; path = ../../../../../Geom3/src/Quaternion.hpp; sourceTree = "<group>"; };
+		AD03D1701E14262F00916C6F /* vec_impl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec_impl.hpp; path = ../../../../../Geom3/src/vec_impl.hpp; sourceTree = "<group>"; };
+		AD03D1711E14262F00916C6F /* vec.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec.hpp; path = ../../../../../Geom3/src/vec.hpp; sourceTree = "<group>"; };
+		AD03D1721E14262F00916C6F /* vec3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = vec3.hpp; path = ../../../../../Geom3/src/vec3.hpp; sourceTree = "<group>"; };
+		AD03D1741E1426B600916C6F /* math3d_define.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = math3d_define.hpp; path = ../../../../../Geom3/src/math3d_define.hpp; sourceTree = "<group>"; };
+		AD03D1761E1427B300916C6F /* Earth.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Earth.cpp; path = Earth_Details/Earth.cpp; sourceTree = "<group>"; };
+		AD03D1771E1427B300916C6F /* Earth.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Earth.hpp; path = Earth_Details/Earth.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD03D14F1E14241C00916C6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD03D1491E14241C00916C6F = {
+			isa = PBXGroup;
+			children = (
+				AD03D1541E14241C00916C6F /* CoordinateTransformations */,
+				AD03D1531E14241C00916C6F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD03D1531E14241C00916C6F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1521E14241C00916C6F /* CoordinateTransformations */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD03D1541E14241C00916C6F /* CoordinateTransformations */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1651E14260200916C6F /* dependencies */,
+				AD03D15C1E14249E00916C6F /* Earth */,
+				AD03D1551E14241C00916C6F /* main.cpp */,
+			);
+			path = CoordinateTransformations;
+			sourceTree = "<group>";
+		};
+		AD03D15C1E14249E00916C6F /* Earth */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1751E14277100916C6F /* Earth_Details */,
+				AD03D15D1E14249E00916C6F /* LatLongAlt */,
+				AD03D1601E14249E00916C6F /* Transformations */,
+			);
+			name = Earth;
+			path = ../../../../src/Earth;
+			sourceTree = "<group>";
+		};
+		AD03D15D1E14249E00916C6F /* LatLongAlt */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D15E1E14249E00916C6F /* LatLongAlt.cpp */,
+				AD03D15F1E14249E00916C6F /* LatLongAlt.hpp */,
+			);
+			path = LatLongAlt;
+			sourceTree = "<group>";
+		};
+		AD03D1601E14249E00916C6F /* Transformations */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1611E14249E00916C6F /* CoordTransforms.cpp */,
+				AD03D1621E14249E00916C6F /* CoordTransforms.hpp */,
+			);
+			path = Transformations;
+			sourceTree = "<group>";
+		};
+		AD03D1651E14260200916C6F /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1661E14261E00916C6F /* Geom3 */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		AD03D1661E14261E00916C6F /* Geom3 */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1741E1426B600916C6F /* math3d_define.hpp */,
+				AD03D1671E14262F00916C6F /* EulerAngles.cpp */,
+				AD03D1681E14262F00916C6F /* EulerAngles.hpp */,
+				AD03D1691E14262F00916C6F /* Geometry.h */,
+				AD03D16A1E14262F00916C6F /* mat_impl.hpp */,
+				AD03D16B1E14262F00916C6F /* mat.hpp */,
+				AD03D16C1E14262F00916C6F /* math_bundle.hpp */,
+				AD03D16D1E14262F00916C6F /* math_operators.hpp */,
+				AD03D16E1E14262F00916C6F /* Quaternion_Impl.hpp */,
+				AD03D16F1E14262F00916C6F /* Quaternion.hpp */,
+				AD03D1701E14262F00916C6F /* vec_impl.hpp */,
+				AD03D1711E14262F00916C6F /* vec.hpp */,
+				AD03D1721E14262F00916C6F /* vec3.hpp */,
+			);
+			name = Geom3;
+			sourceTree = "<group>";
+		};
+		AD03D1751E14277100916C6F /* Earth_Details */ = {
+			isa = PBXGroup;
+			children = (
+				AD03D1761E1427B300916C6F /* Earth.cpp */,
+				AD03D1771E1427B300916C6F /* Earth.hpp */,
+			);
+			name = Earth_Details;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD03D1511E14241C00916C6F /* CoordinateTransformations */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD03D1591E14241C00916C6F /* Build configuration list for PBXNativeTarget "CoordinateTransformations" */;
+			buildPhases = (
+				AD03D14E1E14241C00916C6F /* Sources */,
+				AD03D14F1E14241C00916C6F /* Frameworks */,
+				AD03D1501E14241C00916C6F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoordinateTransformations;
+			productName = CoordinateTransformations;
+			productReference = AD03D1521E14241C00916C6F /* CoordinateTransformations */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD03D14A1E14241C00916C6F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Christian Howard";
+				TargetAttributes = {
+					AD03D1511E14241C00916C6F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2HDSZMHBH8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AD03D14D1E14241C00916C6F /* Build configuration list for PBXProject "CoordinateTransformations" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AD03D1491E14241C00916C6F;
+			productRefGroup = AD03D1531E14241C00916C6F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD03D1511E14241C00916C6F /* CoordinateTransformations */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD03D14E1E14241C00916C6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD03D1641E14249E00916C6F /* CoordTransforms.cpp in Sources */,
+				AD03D1781E1427B300916C6F /* Earth.cpp in Sources */,
+				AD03D1561E14241C00916C6F /* main.cpp in Sources */,
+				AD03D1631E14249E00916C6F /* LatLongAlt.cpp in Sources */,
+				AD03D1731E14262F00916C6F /* EulerAngles.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD03D1571E14241C00916C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AD03D1581E14241C00916C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AD03D15A1E14241C00916C6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2HDSZMHBH8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)../../../../Geom3/src/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AD03D15B1E14241C00916C6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 2HDSZMHBH8;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)../../../../Geom3/src/";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD03D14D1E14241C00916C6F /* Build configuration list for PBXProject "CoordinateTransformations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03D1571E14241C00916C6F /* Debug */,
+				AD03D1581E14241C00916C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD03D1591E14241C00916C6F /* Build configuration list for PBXNativeTarget "CoordinateTransformations" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD03D15A1E14241C00916C6F /* Debug */,
+				AD03D15B1E14241C00916C6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD03D14A1E14241C00916C6F /* Project object */;
+}
